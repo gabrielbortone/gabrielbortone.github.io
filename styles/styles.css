@@ -165,7 +165,7 @@ ul li{
 .nome{
     color: #FFF;
     text-align: center;
-    font-size: 36px;
+    font-size: 2rem;
     font-family: Lora;
     font-style: normal;
     font-weight: 700;
@@ -182,3 +182,55 @@ ul li{
     line-height: normal; 
     max-width: 100%;
 }
+
+@media only screen and (max-width: 768px) {
+    .main-container{
+        display: grid;
+        width: 100%;
+        grid-template-columns: 10rem 4fr;
+    }
+    
+    .img-container {
+        max-width: 6rem;
+        max-height: 6rem;
+    }
+
+    .container-info a p {
+        color: #FFF;
+        font-size: 1.125rem;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal; 
+    }
+    
+    .container-info a  p {
+        display: none;
+    }
+    
+    .icone-img {
+        max-width: 2rem;
+        max-height: 3rem;
+    }
+
+    .nome{
+        color: #FFF;
+        text-align: center;
+        font-size: 1.4rem;
+        font-family: Lora;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal; 
+    }
+    
+    .cargo li {
+        color: #FFF;
+        text-align: center;
+        font-size: 1.125rem;
+        font-family: Dancing Script;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal; 
+        max-width: 100%;
+    }
+  }
